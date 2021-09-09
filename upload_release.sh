@@ -10,7 +10,7 @@ fi
 
 zip -r stations.zip historique_stations.csv
 
-GAPI=https://api.github.com/repos/lovasoa/historique-velib-opendata
+GAPI=https://api.github.com/repos/SebastianS09/historique-velib-opendata
 AUTH="-HAuthorization: token $GITHUB_TOKEN"
 
 LAST_RELEASE_JSON=$(mktemp)
