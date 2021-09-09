@@ -2,7 +2,7 @@
 
 set -e
 
-base="https://api.github.com/repos/lovasoa/historique-velib-opendata/releases/latest"
+base="https://api.github.com/repos/SebastianS09/historique-velib-opendata/releases/latest"
 
 urls=$(
     curl --fail --retry 8 --retry-delay 0 "$base" |
